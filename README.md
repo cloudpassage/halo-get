@@ -3,7 +3,11 @@ halo-get
 
 This script places a GET call to the Halo API, sending the API response to stdout.
 
-Requirements:
+Version: *1.0*
+
+Author: William Stearns - @william-stearns - wstearns@pobox.com
+
+##Requirements:
 * ruby
 * The following ruby gems installed: oauth2, rest-client, json, and optparse.  The following command will install all optional gems needed by the CloudPasssage API clients:
 ```
