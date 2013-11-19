@@ -6,19 +6,16 @@ This script places a GET call to the Halo API, sending the API response to stdou
 Requirements:
 * ruby
 * The following ruby gems installed: oauth2, rest-client, json, and optparse.  The following command will install all optional gems needed by the CloudPasssage API clients:
-
 ```
 sudo gem install oauth2 rest-client json public_suffix ip
 ```
 
 * A Read only (preferred) or Full access API key and secret (*), placed in /etc/halo-api-keys separated by a vertical pipe, like:
-
 ```
 aa00bb44|11111111222222223333333344444444
 ```
 
 * This file should be owned by the user that runs api scripts, mode 600. Developers only: If you're working with an alternate grid, put that  grid's api hostname and port in the third column of the line:
-
 ```
 aa00bb44|11111111222222223333333344444444|api.example.com:9999
 ```
@@ -129,7 +126,7 @@ cat new_zone.json
 }
 ```
 
-1. Now create this zone:
+2. Now create this zone:
 
 ```
 halo-get.rb -i aabbcc00 -m POST -u '/firewall_zones' -p <new_zone.json
