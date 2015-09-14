@@ -143,3 +143,7 @@ If you manage more than one Halo Portal organization, you can place the same API
 ```
 halo-get.rb -i aabbcc00 -i 7890abcd -u '/groups' | less
 ```
+
+<!---
+#CPTAGS:community-supported api-example 
+-->
