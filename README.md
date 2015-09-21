@@ -146,4 +146,5 @@ halo-get.rb -i aabbcc00 -i 7890abcd -u '/groups' | less
 
 <!---
 #CPTAGS:community-supported api-example 
+#TBICON:images/python_icon.png
 -->
